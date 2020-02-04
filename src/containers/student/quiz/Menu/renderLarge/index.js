@@ -1,0 +1,6 @@
+export { default as LargeQuestions } from './LargeQuestions'
+export { default as LargeAreas } from './LargeAreas'
+export { default as QuestionsLargeScreen } from './QuestionsLargeScreen'
+export { default as Question } from './Question'
+export { default as QuestionNoImg } from './QuestionNoImg'
+export { default as QuestionNoImgSmall } from './QuestionNoImgSmall'

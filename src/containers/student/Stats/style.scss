@@ -1,0 +1,24 @@
+.student-stats-container {
+  .list-group-item.topic-error-item {
+    padding: 0.25rem 1.25rem;
+  }
+
+  .topic-errors-chart-container {
+    width: 2em;
+  }
+
+  .exam-stat-item .image-container {
+    width: 50px;
+    min-width: 50px;
+  }
+
+  .exam-list-group-item.list-group-item.custom-list-group-item:hover {
+    color: inherit;
+    background-color: inherit;
+  }
+
+  .explanation-icon {
+    width: 24px;
+    cursor: pointer;
+  }
+}

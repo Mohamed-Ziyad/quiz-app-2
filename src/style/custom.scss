@@ -1,0 +1,86 @@
+html,
+body,
+#root,
+.layout {
+  height: 100%;
+}
+
+body {
+  touch-action: manipulation;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: none;
+}
+
+.welcome-container {
+  .button-image-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .button-image {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.2);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    &:hover {
+      box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.4);
+      transform: scale(1.1, 1.1);
+    }
+  }
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.c-not-allowed {
+  cursor: not-allowed;
+}
+
+.list-group-item.custom-list-group-item {
+  transition: all 0.2s;
+  cursor: pointer;
+  padding: 0.25rem 1.25rem;
+  height: 3em;
+
+  &:hover {
+    z-index: 2;
+    color: var(--white);
+    background-color: var(--primary);
+    box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
+    margin-left: -10px;
+    padding-left: 30px;
+  }
+}
+
+svg.pie-chart {
+  width: 2em;
+  border-radius: 50%;
+  transform: rotate(-90deg);
+
+  circle {
+    fill: none;
+    stroke-width: 16;
+    r: 16;
+    cx: 16;
+    cy: 16;
+
+    &.bg {
+      stroke: var(--secondary);
+    }
+
+    &.fg {
+      stroke: var(--success);
+    }
+  }
+}

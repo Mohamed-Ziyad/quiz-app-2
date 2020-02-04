@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b749877.chunk.css",
+    "main.js": "/static/js/main.5acf92bf.chunk.js",
+    "main.js.map": "/static/js/main.5acf92bf.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.988df37a.chunk.css": "/static/css/2.988df37a.chunk.css",
+    "static/js/2.6b815925.chunk.js": "/static/js/2.6b815925.chunk.js",
+    "static/js/2.6b815925.chunk.js.map": "/static/js/2.6b815925.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5aa89449d5902ddec96f8139fbf75127.js": "/precache-manifest.5aa89449d5902ddec96f8139fbf75127.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.988df37a.chunk.css.map": "/static/css/2.988df37a.chunk.css.map",
+    "static/css/main.5b749877.chunk.css.map": "/static/css/main.5b749877.chunk.css.map",
+    "static/media/exam_header.jpg": "/static/media/exam_header.b7137556.jpg",
+    "static/media/menu-exam.png": "/static/media/menu-exam.f77f288c.png",
+    "static/media/menu-quiz-mult.png": "/static/media/menu-quiz-mult.69253e3c.png",
+    "static/media/menu-quiz.png": "/static/media/menu-quiz.883bb057.png"
+  }
+}

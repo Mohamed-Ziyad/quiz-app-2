@@ -1,0 +1,44 @@
+env:
+  node: false
+  browser: true
+  es6: true
+plugins:
+  - react
+  - import
+  - prettier
+extends:
+  - plugin:react/recommended
+  - plugin:import/errors
+  - plugin:import/warnings
+  - prettier
+  - prettier/react
+globals:
+  process: true
+  name: false
+rules:
+  react/no-did-mount-set-state: 2
+  react/no-did-update-set-state: 2
+  react/prefer-es6-class:
+    - 2
+    - always
+  react/prefer-stateless-function:
+    - 2
+    - ignorePureComponents: true
+  react/sort-comp: 2
+  import/namespace:
+    - 2
+    - allowComputed: true
+  import/no-named-as-default:
+    - 0
+settings:
+  import/resolver: babel-module
+  import/ignore:
+    - node_modules\/(?!(reactstrap|react|react-dom|react-redux|redux|react-router|react-router-dom|lodash-es|@fortawesome/free-solid-svg-icons|@fortawesome/free-regular-svg-icons|@fortawesome/free-brands-svg-icons)\/).*
+    - vendor
+  react:
+    version: detect
+overrides:
+  - files:
+      - '**/*.spec.js'
+    env:
+      jest: true
